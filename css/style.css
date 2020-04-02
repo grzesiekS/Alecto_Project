@@ -78,10 +78,15 @@ body {
 .nav-bar .menu ul li {
   display: inline-block;
   margin-right: 60px;
+  position: relative;
 }
 
 .nav-bar .menu ul li:last-child {
   margin-right: 0;
+}
+
+.nav-bar .menu ul li:hover .popup-menu {
+  display: block;
 }
 
 .nav-bar .menu ul a {
@@ -92,6 +97,30 @@ body {
 
 .nav-bar .menu ul a:hover {
   color: #17daa3;
+}
+
+.nav-bar .menu ul .popup-menu {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  background-color: white;
+}
+
+.nav-bar .menu ul .popup-menu li {
+  margin: 0;
+}
+
+.nav-bar .menu ul .popup-menu li a {
+  display: block;
+  padding: 10px 35px;
+  color: black;
+  transition: all 1s;
+}
+
+.nav-bar .menu ul .popup-menu li a:hover {
+  background-color: #17daa3;
+  color: white;
 }
 
 /* Splash */
