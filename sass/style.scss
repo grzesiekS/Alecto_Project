@@ -7,6 +7,16 @@ body {
     font-family: $font-main;
 }
 
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .btn {
     display: inline-block;
     color: black;
@@ -23,6 +33,63 @@ body {
         background-color: $color-main;
         border-color: $color-main;
         color: white;
+    }
+}
+
+.color-main {
+    color: $color-main;
+}
+
+/* Navbar */
+.nav-bar {
+    position: absolute;
+    top: 57px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    width: 100%;
+
+    .logo {
+        flex: 25%;
+        text-align: left;
+
+        p {
+            margin: 0;
+            color: white;
+            font-weight: 700;
+            font-size: 26px;
+        }
+    }
+
+    .menu {
+        flex: 75%;
+        text-align: right;
+
+        ul {
+            margin: 0;
+            list-style-type: none;
+            padding: 0;
+
+            li {
+                display: inline-block;
+                margin-right: 60px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+            }
+
+            a {
+                text-decoration: none;
+                font-weight: 700;
+                color: white;
+
+                &:hover {
+                    color: $color-main;
+                }
+            }
+        }
     }
 }
 

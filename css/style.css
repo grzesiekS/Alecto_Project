@@ -5,6 +5,18 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .btn {
   display: inline-block;
   color: black;
@@ -22,6 +34,64 @@ body {
   background-color: #17daa3;
   border-color: #17daa3;
   color: white;
+}
+
+.color-main {
+  color: #17daa3;
+}
+
+/* Navbar */
+.nav-bar {
+  position: absolute;
+  top: 57px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  width: 100%;
+}
+
+.nav-bar .logo {
+  -ms-flex: 25%;
+      flex: 25%;
+  text-align: left;
+}
+
+.nav-bar .logo p {
+  margin: 0;
+  color: white;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.nav-bar .menu {
+  -ms-flex: 75%;
+      flex: 75%;
+  text-align: right;
+}
+
+.nav-bar .menu ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-bar .menu ul li {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+.nav-bar .menu ul li:last-child {
+  margin-right: 0;
+}
+
+.nav-bar .menu ul a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
+
+.nav-bar .menu ul a:hover {
+  color: #17daa3;
 }
 
 /* Splash */
