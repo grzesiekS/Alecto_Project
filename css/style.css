@@ -80,7 +80,7 @@ section {
 }
 
 .nav-bar .logo p {
-  margin: 0;
+  margin: 0 20px;
   color: white;
   font-weight: 700;
   font-size: 26px;
@@ -93,7 +93,7 @@ section {
 }
 
 .nav-bar .menu ul {
-  margin: 0;
+  margin: 0 20px;
   list-style-type: none;
   padding: 0;
 }
