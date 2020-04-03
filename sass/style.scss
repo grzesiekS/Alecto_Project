@@ -1,6 +1,8 @@
 /* Varaibles */
 $font-main: 'Raleway', sans-serif;
 $color-main: #17daa3;
+$color-grey: #87949E;
+$color-lightGrey: #EDEFF1;
 /* Global */
 body {
     margin: 0;
@@ -10,6 +12,7 @@ body {
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .wrapper {
@@ -38,6 +41,28 @@ body {
 
 .color-main {
     color: $color-main;
+}
+
+section {
+    margin: 105px 0;
+}
+
+.section-title {
+    font-size: 54px;
+    font-weight: 400;
+    margin-top: 0;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 3px;
+        left: 50%;
+        top : 125%;
+        transform: translateX(-50%);
+        background-color: $color-main;
+    }
 }
 
 /* Navbar */
@@ -167,5 +192,35 @@ body {
         height: 100%;
         background-color: black;
         opacity: 0.5;
+    }
+}
+
+/* About us */
+.about-us {
+    .about-box {
+        flex: 25%;
+        margin: 100px 0;
+
+        .btn-icon {
+            display: inline-block;
+            font-size: 68px;
+            color: $color-grey;
+            width: 185px;
+            height: 185px;
+            background-color: $color-lightGrey;
+            border-radius: 50%;
+            line-height: 185px;
+            transition: all 1s;
+            margin-bottom: 30px;
+
+            &:hover {
+                color: white;
+                background-color: $color-main;
+            }
+        }
+
+        h3 {
+            margin: 20px 0;
+        }
     }
 }
