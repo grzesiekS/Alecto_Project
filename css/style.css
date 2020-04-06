@@ -63,6 +63,10 @@ section {
   background-color: #17daa3;
 }
 
+.section-subtitle {
+  margin-bottom: 120px;
+}
+
 /* Navbar */
 .nav-bar {
   position: absolute;
@@ -197,7 +201,7 @@ section {
 .about-us .about-box {
   -ms-flex: 25%;
       flex: 25%;
-  margin: 100px 0;
+  margin-bottom: 100px;
 }
 
 .about-us .about-box .btn-icon {
@@ -350,7 +354,7 @@ section {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 105px;
+  margin-bottom: 105px;
 }
 
 .our-services .service-box .icon {
@@ -382,5 +386,51 @@ section {
 
 .our-services .service-box .description p {
   font-size: 15px;
+}
+
+/* Our Team */
+.our-team .team-member {
+  -ms-flex: 20%;
+      flex: 20%;
+  position: relative;
+  height: 350px;
+}
+
+.our-team .team-member::after {
+  display: none;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #17daa3;
+  opacity: 0.7;
+}
+
+.our-team .team-member:hover::after {
+  display: block;
+}
+
+.our-team .team-member:hover .team-member-name {
+  display: block;
+}
+
+.our-team .team-member .team-member-photo img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.our-team .team-member .team-member-name {
+  display: none;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
