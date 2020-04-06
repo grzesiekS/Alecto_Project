@@ -226,6 +226,10 @@ section {
   margin: 20px 0;
 }
 
+.about-us .about-box p {
+  padding: 0 20px;
+}
+
 /* Photography Projects */
 .photography-projects {
   background-color: #EDEFF1;
