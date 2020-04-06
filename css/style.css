@@ -306,6 +306,7 @@ section {
   background-size: cover;
   height: 500px;
   position: relative;
+  margin-bottom: 0;
 }
 
 .ceo-info::after {
@@ -333,5 +334,53 @@ section {
   width: 200px;
   object-fit: cover;
   border-radius: 50%;
+}
+
+/*Our Services*/
+.our-services {
+  background-color: #EDEFF1;
+  margin: 0;
+  padding: 105px 0;
+}
+
+.our-services .service-box {
+  -ms-flex: 50%;
+      flex: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 105px;
+}
+
+.our-services .service-box .icon {
+  -ms-flex: 25%;
+      flex: 25%;
+}
+
+.our-services .service-box .icon i {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  font-size: 35px;
+  background-color: white;
+  color: #17daa3;
+  line-height: 65px;
+  border-radius: 50%;
+}
+
+.our-services .service-box .description {
+  -ms-flex: 75%;
+      flex: 75%;
+  text-align: left;
+}
+
+.our-services .service-box .description h1 {
+  margin-top: 15px;
+  font-size: 35px;
+}
+
+.our-services .service-box .description p {
+  font-size: 15px;
 }
 /*# sourceMappingURL=style.css.map */
