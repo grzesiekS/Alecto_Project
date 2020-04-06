@@ -224,3 +224,76 @@ section {
         }
     }
 }
+
+/* Photography Projects */
+.photography-projects {
+    background-color: $color-lightGrey;
+    padding: 50px 0;
+
+    .image {
+        flex: 50%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+    }
+
+    .project-description {
+        flex: 50%;
+
+        p, h2 {
+            text-align: left;
+            margin: 50px 0 50px 50px;
+        }
+
+        h2 {
+            font-size: 36px;
+        }
+
+        .btn {
+            display: block;
+            margin-left: 50px;
+        }
+    }
+}
+
+/* Design Project */
+.design-projects {
+    padding: 50px 0;
+
+    .wrapper {
+        flex-direction: row-reverse;
+    }
+
+    .image {
+        flex: 50%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            margin-left: 50px;
+
+        }
+    }
+
+    .project-description {
+        flex: 50%;
+
+        p, h2 {
+            text-align: left;
+            margin: 50px 0;
+        }
+
+        h2 {
+            font-size: 36px;
+        }
+
+        .btn {
+            display: block;
+        }
+    }
+}

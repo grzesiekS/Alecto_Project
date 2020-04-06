@@ -220,4 +220,80 @@ section {
 .about-us .about-box h3 {
   margin: 20px 0;
 }
+
+/* Photography Projects */
+.photography-projects {
+  background-color: #EDEFF1;
+  padding: 50px 0;
+}
+
+.photography-projects .image {
+  -ms-flex: 50%;
+      flex: 50%;
+}
+
+.photography-projects .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photography-projects .project-description {
+  -ms-flex: 50%;
+      flex: 50%;
+}
+
+.photography-projects .project-description p, .photography-projects .project-description h2 {
+  text-align: left;
+  margin: 50px 0 50px 50px;
+}
+
+.photography-projects .project-description h2 {
+  font-size: 36px;
+}
+
+.photography-projects .project-description .btn {
+  display: block;
+  margin-left: 50px;
+}
+
+/* Design Project */
+.design-projects {
+  padding: 50px 0;
+}
+
+.design-projects .wrapper {
+  -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
+}
+
+.design-projects .image {
+  -ms-flex: 50%;
+      flex: 50%;
+}
+
+.design-projects .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 50px;
+}
+
+.design-projects .project-description {
+  -ms-flex: 50%;
+      flex: 50%;
+}
+
+.design-projects .project-description p, .design-projects .project-description h2 {
+  text-align: left;
+  margin: 50px 0;
+}
+
+.design-projects .project-description h2 {
+  font-size: 36px;
+}
+
+.design-projects .project-description .btn {
+  display: block;
+}
 /*# sourceMappingURL=style.css.map */
