@@ -237,7 +237,7 @@ section {
 }
 
 /* Photography Projects */
-.photography-projects {
+.photography-projects, .left-align-box {
     background-color: $color-lightGrey;
     padding: 50px 0;
 
@@ -260,6 +260,11 @@ section {
             margin: 50px 0 50px 50px;
         }
 
+        p {
+            font-size: 20px;
+            line-height: 50px;
+        }
+
         h2 {
             font-size: 36px;
         }
@@ -272,7 +277,7 @@ section {
 }
 
 /* Design Project */
-.design-projects {
+.design-projects, .right-align-box {
     padding: 50px 0;
 
     .wrapper {
@@ -301,6 +306,11 @@ section {
 
         h2 {
             font-size: 36px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 50px;
         }
 
         .btn {

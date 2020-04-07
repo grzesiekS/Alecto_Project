@@ -235,78 +235,88 @@ section {
 }
 
 /* Photography Projects */
-.photography-projects {
+.photography-projects, .left-align-box {
   background-color: #EDEFF1;
   padding: 50px 0;
 }
 
-.photography-projects .image {
+.photography-projects .image, .left-align-box .image {
   -ms-flex: 50%;
       flex: 50%;
 }
 
-.photography-projects .image img {
+.photography-projects .image img, .left-align-box .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.photography-projects .project-description {
+.photography-projects .project-description, .left-align-box .project-description {
   -ms-flex: 50%;
       flex: 50%;
 }
 
-.photography-projects .project-description p, .photography-projects .project-description h2 {
+.photography-projects .project-description p, .photography-projects .project-description h2, .left-align-box .project-description p, .left-align-box .project-description h2 {
   text-align: left;
   margin: 50px 0 50px 50px;
 }
 
-.photography-projects .project-description h2 {
+.photography-projects .project-description p, .left-align-box .project-description p {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.photography-projects .project-description h2, .left-align-box .project-description h2 {
   font-size: 36px;
 }
 
-.photography-projects .project-description .btn {
+.photography-projects .project-description .btn, .left-align-box .project-description .btn {
   display: block;
   margin-left: 50px;
 }
 
 /* Design Project */
-.design-projects {
+.design-projects, .right-align-box {
   padding: 50px 0;
 }
 
-.design-projects .wrapper {
+.design-projects .wrapper, .right-align-box .wrapper {
   -ms-flex-direction: row-reverse;
       flex-direction: row-reverse;
 }
 
-.design-projects .image {
+.design-projects .image, .right-align-box .image {
   -ms-flex: 50%;
       flex: 50%;
 }
 
-.design-projects .image img {
+.design-projects .image img, .right-align-box .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   margin-left: 50px;
 }
 
-.design-projects .project-description {
+.design-projects .project-description, .right-align-box .project-description {
   -ms-flex: 50%;
       flex: 50%;
 }
 
-.design-projects .project-description p, .design-projects .project-description h2 {
+.design-projects .project-description p, .design-projects .project-description h2, .right-align-box .project-description p, .right-align-box .project-description h2 {
   text-align: left;
   margin: 50px 0;
 }
 
-.design-projects .project-description h2 {
+.design-projects .project-description h2, .right-align-box .project-description h2 {
   font-size: 36px;
 }
 
-.design-projects .project-description .btn {
+.design-projects .project-description p, .right-align-box .project-description p {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.design-projects .project-description .btn, .right-align-box .project-description .btn {
   display: block;
 }
 
