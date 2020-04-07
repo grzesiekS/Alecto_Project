@@ -29,6 +29,7 @@ body {
   font-weight: 700;
   border-radius: 25px;
   transition: all 1s;
+  text-align: center;
 }
 
 .btn:hover {
@@ -497,6 +498,11 @@ section {
 .pricing .bottom-section .btn-box i {
   position: absolute;
   left: 80%;
+}
+
+/* */
+.locations .image img {
+  object-fit: contain;
 }
 
 /* Samples */
