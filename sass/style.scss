@@ -44,7 +44,7 @@ body {
 }
 
 section {
-    margin: 105px 0;
+    padding-top: 105px;
 }
 
 .section-title {
@@ -202,6 +202,8 @@ section {
 
 /* About us */
 .about-us {
+    padding-bottom: 105px;
+
     .about-box {
         flex: 25%;
         margin-bottom: 100px;
@@ -389,6 +391,7 @@ section {
 
 /* Our Team */
 .our-team {
+
     .team-member {
         flex: 20%;
         position: relative;
@@ -436,5 +439,58 @@ section {
             color: white;
         }
 
+    }
+}
+
+/* Pricing */
+.pricing {
+    background-color: $color-lightGrey;
+    padding-bottom: 105px;
+
+    .box-content {
+        font-size: 24px;
+        flex: 20%;
+        background-color: white;
+        margin-right: 28px;
+        text-align: left;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .head-section {
+        border-bottom: 2px solid $color-lightGrey;
+        padding: 21px;
+        color: $color-lightGrey;
+
+        p {
+            &:first-child {
+                font-size: 48px;
+                margin: 28px 0;
+            }
+        }
+    }
+
+    .middle-seciotn {
+        padding: 21px;
+    }
+
+    .bottom-section {
+        .btn-box {
+            background-color: $color-main;
+            display: block;
+            padding: 21px;
+            color: white;
+            text-decoration: none;
+            position: relative;
+            text-transform: uppercase;
+            
+
+            i {
+                position: absolute;
+                left: 80%;
+            }
+        }
     }
 }

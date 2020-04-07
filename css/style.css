@@ -42,7 +42,7 @@ body {
 }
 
 section {
-  margin: 105px 0;
+  padding-top: 105px;
 }
 
 .section-title {
@@ -198,6 +198,10 @@ section {
 }
 
 /* About us */
+.about-us {
+  padding-bottom: 105px;
+}
+
 .about-us .about-box {
   -ms-flex: 25%;
       flex: 25%;
@@ -436,5 +440,54 @@ section {
   font-size: 25px;
   font-weight: 700;
   color: white;
+}
+
+/* Pricing */
+.pricing {
+  background-color: #EDEFF1;
+  padding-bottom: 105px;
+}
+
+.pricing .box-content {
+  font-size: 24px;
+  -ms-flex: 20%;
+      flex: 20%;
+  background-color: white;
+  margin-right: 28px;
+  text-align: left;
+}
+
+.pricing .box-content:last-child {
+  margin-right: 0;
+}
+
+.pricing .head-section {
+  border-bottom: 2px solid #EDEFF1;
+  padding: 21px;
+  color: #EDEFF1;
+}
+
+.pricing .head-section p:first-child {
+  font-size: 48px;
+  margin: 28px 0;
+}
+
+.pricing .middle-seciotn {
+  padding: 21px;
+}
+
+.pricing .bottom-section .btn-box {
+  background-color: #17daa3;
+  display: block;
+  padding: 21px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.pricing .bottom-section .btn-box i {
+  position: absolute;
+  left: 80%;
 }
 /*# sourceMappingURL=style.css.map */
