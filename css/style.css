@@ -498,4 +498,23 @@ section {
   position: absolute;
   left: 80%;
 }
+
+/* Samples */
+.samples {
+  background-image: url("https://images.unsplash.com/photo-1542369495651-3b55935edb17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+}
+
+.samples h2 {
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.samples .btn {
+  color: white;
+  border-color: white;
+}
+
+.samples .btn:hover {
+  border-color: #17daa3;
+}
 /*# sourceMappingURL=style.css.map */
