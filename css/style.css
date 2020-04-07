@@ -465,12 +465,8 @@ section {
   -ms-flex: 20%;
       flex: 20%;
   background-color: white;
-  margin-right: 28px;
+  margin: 0 14px;
   text-align: left;
-}
-
-.pricing .box-content:last-child {
-  margin-right: 0;
 }
 
 .pricing .head-section {

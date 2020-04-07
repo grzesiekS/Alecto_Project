@@ -462,12 +462,8 @@ section {
         font-size: 24px;
         flex: 20%;
         background-color: white;
-        margin-right: 28px;
+        margin: 0 14px;
         text-align: left;
-
-        &:last-child {
-            margin-right: 0;
-        }
     }
 
     .head-section {
