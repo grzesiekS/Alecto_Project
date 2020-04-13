@@ -82,9 +82,13 @@
         const parent = clickedElmenet.parentNode;
         console.log('Parent of the clicked button:', parent);
         
-        /* [IN PROGRESS] Add active class for h3 tag */
+        /* [DONE] Add active class for h3 tag */
 
-        /* Add active class for p tag */
+        parent.querySelector('h3').classList.add('active')
+
+        /* [DONE] Add active class for p tag */
+
+        parent.querySelector('p').classList.add('active')
     }
 
     addServiceDropDownMenu();
