@@ -8,10 +8,12 @@ const addServiceDropDownMenu = function() {
         sectionServiceContainer = 'service-box',
         sectionServiceDescription = 'description';
 
-    /* [IN PROGRESS] Remove code in html for drop down menu in nav-bar section*/
+    /* [DONE] Remove code in html for drop down menu in nav-bar section*/
 
-    /* Get all  service names from our-service section*/
-    /* For all service-box in our-service section*/
+    document.getElementById(popUpMenu).innerHTML = '';
+
+    /* [IN PROGRESS] Get all  service names from our-service section*/
+    /* [IN PROGRESS] For all service-box in our-service section*/
 
         /* Get description conent */
 
