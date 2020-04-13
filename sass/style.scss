@@ -227,14 +227,25 @@ section {
                 color: white;
                 background-color: $color-main;
             }
+
+            &.active-btn {
+                color: white;
+                background-color: $color-main;
+            }
         }
 
         h3 {
             margin: 20px 0;
+            opacity: 0;
         }
 
         p {
             padding: 0 20px;
+            opacity: 0;
+        }
+
+        .active {
+            opacity: 1;
         }
     }
 }

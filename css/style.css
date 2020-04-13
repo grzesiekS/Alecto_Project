@@ -229,12 +229,23 @@ section {
   background-color: #17daa3;
 }
 
+.about-us .about-box .btn-icon.active-btn {
+  color: white;
+  background-color: #17daa3;
+}
+
 .about-us .about-box h3 {
   margin: 20px 0;
+  opacity: 0;
 }
 
 .about-us .about-box p {
   padding: 0 20px;
+  opacity: 0;
+}
+
+.about-us .about-box .active {
+  opacity: 1;
 }
 
 /* Photography Projects */
