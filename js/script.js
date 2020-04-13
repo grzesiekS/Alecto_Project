@@ -23,9 +23,12 @@ const addServiceDropDownMenu = function() {
         for(let element of serviceBoxElements) {
             console.log('service-box: ', element);
 
-        /* Get description conent */
+        /* [DONE] Get description conent */
 
-        /* Get service name from h1 tag */
+            const descContent = element.querySelector(serviceDescription);
+            console.log('Description: ', descContent)
+
+        /* [IN PROGRESS] Get service name from h1 tag */
         }
     /* create html code for drop down menu */
 
