@@ -237,15 +237,24 @@ section {
 .about-us .about-box h3 {
   margin: 20px 0;
   opacity: 0;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  transition: all 1s;
 }
 
 .about-us .about-box p {
   padding: 0 20px;
   opacity: 0;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  transition: all 1s;
 }
 
 .about-us .about-box .active {
   opacity: 1;
+  position: relative;
 }
 
 /* Photography Projects */
