@@ -73,9 +73,11 @@
             element.querySelector('p').classList.remove('active');
         }
 
-        /* [IN PROGRESS] Add class active-btn for currently clicked button */
+        /* [DONE] Add class active-btn for currently clicked button */
+        
+        clickedElmenet.classList.add('active-btn');
 
-        /* Get siblings of the clicked button */
+        /* [IN PROGRESS] Get siblings of the clicked button */
         
         /* Add active class for h3 tag */
 
