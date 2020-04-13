@@ -138,9 +138,11 @@ section {
 
 .nav-bar .menu ul .popup-menu li {
   margin: 0;
+  width: 100%;
 }
 
 .nav-bar .menu ul .popup-menu li a {
+  text-align: center;
   display: block;
   padding: 10px 35px;
   color: black;
