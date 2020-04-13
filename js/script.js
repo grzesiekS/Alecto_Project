@@ -12,7 +12,8 @@ const addServiceDropDownMenu = function() {
 
     /* [DONE] Remove code in html for drop down menu in nav-bar section*/
 
-    document.getElementById(popUpMenu).innerHTML = '';
+    const serviceSubMenu = document.getElementById(popUpMenu);
+    serviceSubMenu.innerHTML = '';
 
     /* [DONE] Get all  service names from our-service section*/
 
@@ -45,6 +46,9 @@ const addServiceDropDownMenu = function() {
         console.log('HTML Code: ' + htmlCode);
 
     /* [IN PROGRESS] Add html code to menu section for drop down menu */
+
+    
+
 }
 
 addServiceDropDownMenu();
