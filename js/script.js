@@ -77,9 +77,12 @@
         
         clickedElmenet.classList.add('active-btn');
 
-        /* [IN PROGRESS] Get siblings of the clicked button */
+        /* [DONE] Get parent of the clicked button */
+
+        const parent = clickedElmenet.parentNode;
+        console.log('Parent of the clicked button:', parent);
         
-        /* Add active class for h3 tag */
+        /* [IN PROGRESS] Add active class for h3 tag */
 
         /* Add active class for p tag */
     }
