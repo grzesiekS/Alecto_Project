@@ -60,13 +60,22 @@
         console.log('Button was clicked!')
         console.log(event);
 
-        /* [IN PROGRESS] Remove active-btn and active calss */
+        const aboutBox = '.about-box',
+            btnIncon = '.btn-icon';
 
-        /* Add class active-btn for currently clicked button */
+        /* [DONE] Remove active-btn and active calss */
 
-        /* Get parent of the clicked button */
+        const aboutBoxElments = document.querySelectorAll(aboutBox);
 
-        /* Get all children of the parent */
+        for(let element of aboutBoxElments) {
+            element.querySelector(btnIncon).classList.remove('active-btn');
+            element.querySelector('h3').classList.remove('active');
+            element.querySelector('p').classList.remove('active');
+        }
+
+        /* [IN PROGRESS] Add class active-btn for currently clicked button */
+
+        /* Get siblings of the clicked button */
         
         /* Add active class for h3 tag */
 
