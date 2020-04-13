@@ -52,5 +52,33 @@
 
     }
 
+    const aboutUsClickHandler = function() {
+        event.preventDefault();
+
+        const clickedElmenet = this;
+
+        console.log('Button was clicked!')
+        console.log(event);
+
+        /* [IN PROGRESS] Remove active-btn and active calss */
+
+        /* Add class active-btn for currently clicked button */
+
+        /* Get parent of the clicked button */
+
+        /* Get all children of the parent */
+        
+        /* Add active class for h3 tag */
+
+        /* Add active class for p tag */
+    }
+
     addServiceDropDownMenu();
+    
+    const buttons = document.querySelectorAll('.about-box a');
+
+    for(let button of buttons) {
+        button.addEventListener('click', aboutUsClickHandler);
+    }
+
 }
