@@ -1,5 +1,7 @@
 'use strict';
 
+let htmlCode = '';
+
 const addServiceDropDownMenu = function() {
     console.log('Add service Drop Down Menu function');
 
@@ -12,7 +14,7 @@ const addServiceDropDownMenu = function() {
 
     document.getElementById(popUpMenu).innerHTML = '';
 
-    /* [IN PROGRESS] Get all  service names from our-service section*/
+    /* [DONE] Get all  service names from our-service section*/
 
         const serviceElements = document.querySelector(sectionService);
 
@@ -33,11 +35,16 @@ const addServiceDropDownMenu = function() {
             const h1Name = descContent.querySelector('h1').innerHTML;
             console.log('h1 content:', h1Name);
         
-        /* [IN PROGRESS] create html code for drop down menu */
+        /* [DONE] create html code for drop down menu */
 
+            const html = '<li><a href="#">' + h1Name + '</a></li>';
+            htmlCode += html;
+            
         }
 
-    /* Add html code to menu section for drop down menu */
+        console.log('HTML Code: ' + htmlCode);
+
+    /* [IN PROGRESS] Add html code to menu section for drop down menu */
 }
 
 addServiceDropDownMenu();
