@@ -28,9 +28,14 @@ const addServiceDropDownMenu = function() {
             const descContent = element.querySelector(serviceDescription);
             console.log('Description: ', descContent)
 
-        /* [IN PROGRESS] Get service name from h1 tag */
+        /* [DONE] Get service name from h1 tag */
+        
+            const h1Name = descContent.querySelector('h1').innerHTML;
+            console.log('h1 content:', h1Name);
+        
+        /* [IN PROGRESS] create html code for drop down menu */
+
         }
-    /* create html code for drop down menu */
 
     /* Add html code to menu section for drop down menu */
 }
