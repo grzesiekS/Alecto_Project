@@ -45,9 +45,9 @@ const addServiceDropDownMenu = function() {
 
         console.log('HTML Code: ' + htmlCode);
 
-    /* [IN PROGRESS] Add html code to menu section for drop down menu */
+    /* [DONE] Add html code to menu section for drop down menu */
 
-    
+    serviceSubMenu.insertAdjacentHTML('afterbegin', htmlCode);
 
 }
 
