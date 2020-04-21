@@ -552,3 +552,147 @@ section {
 
     }
 }
+
+/* Media queries */
+@media(max-width: 991px) {
+    .nav-bar {
+        .menu {
+            ul {
+                li {
+                    margin-right: 30px;
+
+                    &:last-child {
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    .splash {
+        .splash-inner {
+            .page-title {
+                font-size: 45px;
+            }
+        }
+    }
+
+    .about-us {
+        .about-box {
+            flex: 50%;
+        }
+    }
+
+    .photography-projects, .left-align-box {
+        .image {
+            flex: 100%;
+        }
+        
+    }
+
+    .design-projects, .right-align-box {
+        .wrapper {
+            flex-direction: row;
+        }
+
+        .image {
+            flex: 100%;
+        }
+    }
+
+    .info {
+        .container {
+            width: 90%;
+        }
+    }
+
+    .our-team {
+        .team-member {
+            flex: 50%;
+        }
+    }
+
+    .pricing {
+        .box-content {
+            flex: 45%;
+            margin-bottom: 28px;
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .nav-bar {
+        .wrapper {
+            flex-direction: column;
+        }
+        .logo {
+            flex: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .menu {
+            flex: 100%;
+            text-align: center;
+
+            ul {
+
+                margin: 0;
+
+                li {
+                    margin-right: 10px;
+                    font-size: 14px;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+    .splash {
+        .splash-inner {
+            top: 70%;
+            width: 90%;
+            .page-title {
+                font-size: 18px;
+            }
+
+            .page-subtitle {
+                font-size: 12px;
+            }
+
+            .btn-splash {
+                margin: 20px 0;
+            }
+        }
+    }
+
+    .about-us {
+        .about-box {
+            flex: 100%;
+        }
+    }
+
+    .our-services {
+        .service-box {
+            flex: 100%;
+            margin-bottom: 50px;
+
+            .icon {
+                flex: 100%;
+            }
+
+            .description {
+                text-align: center;
+                margin: 0 15px;
+            }
+        }
+    }
+
+    .our-team {
+        .team-member {
+            flex: 100%;
+        }
+    }
+}

@@ -545,4 +545,107 @@ section {
 .samples .btn:hover {
   border-color: #17daa3;
 }
+
+/* Media queries */
+@media (max-width: 991px) {
+  .nav-bar .menu ul li {
+    margin-right: 30px;
+  }
+  .nav-bar .menu ul li:last-child {
+    margin-right: 0px;
+  }
+  .splash .splash-inner .page-title {
+    font-size: 45px;
+  }
+  .about-us .about-box {
+    -ms-flex: 50%;
+        flex: 50%;
+  }
+  .photography-projects .image, .left-align-box .image {
+    -ms-flex: 100%;
+        flex: 100%;
+  }
+  .design-projects .wrapper, .right-align-box .wrapper {
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+  .design-projects .image, .right-align-box .image {
+    -ms-flex: 100%;
+        flex: 100%;
+  }
+  .info .container {
+    width: 90%;
+  }
+  .our-team .team-member {
+    -ms-flex: 50%;
+        flex: 50%;
+  }
+  .pricing .box-content {
+    -ms-flex: 45%;
+        flex: 45%;
+    margin-bottom: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-bar .wrapper {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .nav-bar .logo {
+    -ms-flex: 100%;
+        flex: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .nav-bar .menu {
+    -ms-flex: 100%;
+        flex: 100%;
+    text-align: center;
+  }
+  .nav-bar .menu ul {
+    margin: 0;
+  }
+  .nav-bar .menu ul li {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  .nav-bar .menu ul li:last-child {
+    margin-right: 0;
+  }
+  .splash .splash-inner {
+    top: 70%;
+    width: 90%;
+  }
+  .splash .splash-inner .page-title {
+    font-size: 18px;
+  }
+  .splash .splash-inner .page-subtitle {
+    font-size: 12px;
+  }
+  .splash .splash-inner .btn-splash {
+    margin: 20px 0;
+  }
+  .about-us .about-box {
+    -ms-flex: 100%;
+        flex: 100%;
+  }
+  .our-services .service-box {
+    -ms-flex: 100%;
+        flex: 100%;
+    margin-bottom: 50px;
+  }
+  .our-services .service-box .icon {
+    -ms-flex: 100%;
+        flex: 100%;
+  }
+  .our-services .service-box .description {
+    text-align: center;
+    margin: 0 15px;
+  }
+  .our-team .team-member {
+    -ms-flex: 100%;
+        flex: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
